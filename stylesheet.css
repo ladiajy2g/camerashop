@@ -1,0 +1,340 @@
+
+h1, h2, h3, h4, h5{
+  font-family: ‘Libre Baskerville’, serif;
+  color: #9A791F;
+}
+
+p{
+  font-family: ‘Raleway’, sans-serif;;
+}
+
+.btn-primary{
+  background-color: #9A791F;
+  border: none;
+}
+.btn-primary:hover{
+  background-color: #553E00;
+}
+
+/* navigation */
+.navbar-brand img{
+  width: 70px;
+}
+/* end navigation */
+
+/* home header-section */
+.header-section{
+  background-image: url(images/header-image.jpg);
+  background-repeat: no-repeat;
+  height: 50%;
+  background-size: cover;
+  background-position: top center;
+  padding: 30px;
+}
+.head-section-background{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+.head-section-texts p{
+  color: #fff;
+  text-align: left;
+}
+.head-section-texts h1{
+  color: #fff;
+  font-size: 35px;
+}
+/* end home header-section */
+
+/* services-section */
+.services-section{
+  margin-top: 60px;
+  padding: 0 8% 0 8%;
+}
+
+.services-section h1, p{
+  text-align: center;
+}
+
+/* .home-portfolio{
+  margin-top: 25%;
+} */
+
+/* home portfolio images */
+.portfolio-image1{
+  background-image: url(images/portraits.jpg);
+}
+.portfolio-image2{
+  background-image: url(images/landscape.jpg);
+}
+.portfolio-image3{
+  background-image: url(images/nature.jpg);
+}
+.portfolio-image4{
+  background-image: url(images/events.jpg);
+}
+.portfolio-image1, .portfolio-image2, .portfolio-image3, .portfolio-image4{
+  background-size: cover;
+  width: 23%;
+  height: 600px;
+  /* margin-top: 25px; */
+  background-position: top center;
+  filter: brightness(80%);
+  -webkit-filter: brightness(80%);
+  width: 95%;
+  margin: 5px;
+}
+.portfolio-image1:hover, .portfolio-image2:hover, .portfolio-image3:hover, .portfolio-image4:hover{
+  filter: brightness(80%);
+  -webkit-filter: brightness(100%);
+}
+.portfolio-image1 p, .portfolio-image2 p, .portfolio-image3 p, .portfolio-image4 p{
+  text-align: center;
+  padding-top: 300px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+.home-portfolio{
+  padding: 1% 7% 2% 7%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+}
+/* end home portfolio images */
+
+.services-button{
+  display: flex;
+  justify-content: center;
+}
+
+/* end services-section */
+
+/* footer section */
+.footer-section{
+  background-color: #EBE4D2;
+  margin-top: 100px;
+  padding: 50px;
+}
+.footer-section h3{
+  text-align: center;
+}
+.footer-section p{
+  text-align: left;
+}
+
+/* social icons */
+.social-icons-footer{
+  text-align: center;
+}
+.social-icons-footer i{
+  color: #553E00;
+  font-size: 35px;
+  padding: 2px;
+}
+/* end social icons */
+
+/* copyright-section */
+.copyright-section{
+  background-color: #9A791F;
+  padding: 10px;
+}
+.copyright-section p{
+  color: #fff;
+  font-size: small;
+}
+/* end copyright section */
+/* end footer section */
+
+/* inner pages header */
+.inner-pages-header{
+  background-image: url(images/inner-pages-header.jpg);
+  background-size: cover;
+  height: 200px;
+  background-position: top center;
+  filter: brightness(70%);
+  -webkit-filter: brightness(70%);
+}
+.inner-pages-header h1{
+  color: #fff;
+  text-align: center;
+  padding-top:80px;
+}
+/* end inner pages header */
+
+.inner-pages-wrapper{
+  margin: 10% 5% 7% 5%;
+}
+.inner-pages-wrapper-second{
+  margin: 10% 5% 7% 5%;
+}
+.side-menu{
+  background-color: #9A791F;
+  padding: 10 45 80 0;
+}
+
+.side-menu li{
+  list-style: none;
+  margin: 0;
+  padding-top: 35px;
+  border-bottom: 1px dotted #fff;
+}
+.side-menu li a{
+  color: #EBE4D2;
+  font-size: 1.1rem;
+}
+.side-menu li a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+/* about us page */
+.about-us-text p{
+  text-align: left;
+  padding-top: 30px;
+}
+.about-us-image img{
+  padding-top: 40px;
+  width: 80%;
+}
+/* end about us page */
+
+/* portfolio page */
+.portfolio-section{
+  padding: 5% 7% 2% 7%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+}
+.portfolio-section img{
+  width: 98%;
+  margin: 5px;
+  filter: brightness(60%);
+  -webkit-filter: brightness(60%);
+}
+
+ .portfolio-section img:hover{
+   filter: brightness(100%);
+   -webkit-filter: brightness(100%);
+}
+/* end portfolio page */
+
+/* contact us page */
+.contact-section{
+  padding: 10%;
+}
+/* end contact us page */
+
+/*  landscape phones and tablets, between 600px and 768px) */
+@media (min-width: 600px) and (max-width: 768px)  {
+  .header-section{
+    height: 60%;
+  }
+  .head-section-background{
+    margin: 40 300 0 20;
+  }
+  
+    /* contact us page */
+    .contact-section{
+      padding: 5% 20% 0% 10%;
+    }
+    /* end contact us page */
+
+}
+
+/*  Small screens, laptops, 769px and up) */
+@media (min-width: 769px) {
+  .navbar {
+    margin-bottom: 5px;
+    margin-left: 50px;
+  }
+  .navbar-brand{
+    padding-right: 100px;
+  }
+ 
+  .navbar-nav li{
+    padding-right: 30px;
+  }
+  .navbar-nav li a:hover{
+    color: #9A791F !important;
+  }
+  .nabar-nav li a.nav-item.active{
+    color: #9A791F !important;
+  }
+  .header-section{
+    height: 65%;
+  }
+  .head-section-background{
+    margin: 90 500 0 80;
+  }
+  
+  .home-portfolio{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  /* footer section and social icons */
+  .footer-section{
+    padding: 50 100 20 100;
+    display: grid;
+    grid-template-columns: 25% 20% 20%;
+    justify-content: space-around;
+  }
+  .footer-section h3{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .footer-columns p{
+    font-size: 14px;
+  }
+  .social-icons-footer{
+    text-align: left;
+  }
+  /* end footer section and social icons */
+
+  /* inner page header */
+  .inner-pages-header{
+    height: 300px;
+  }
+  .inner-pages-header h1{
+    padding-top:120px;
+  }
+    /* end inner page header */
+
+    /* inner page wrapper and side menu */
+    .inner-pages-wrapper{
+      margin: 2% 8% 1% 8%;
+      display: grid;
+      grid-template-columns: 20%  45% 28%;
+      justify-content: space-around;
+    }
+    .side-menu{
+      margin-top: 15%;
+      height: 400px;
+    }
+    .side-menu li{
+      padding-top: 35px;
+    }
+    .side-menu li a{
+      font-size: 1.1rem;
+    }
+    /* end inner page wrapper and side menu */
+ 
+  /* portfolio page */
+.inner-pages-wrapper-second{
+  margin: 2% 8% 1% 8%;
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      justify-content: space-around;
+}
+  .portfolio-section{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  /* end portfolio page */
+
+  /* contact us page */
+  .contact-section{
+  padding: 5% 30% 0% 10%;
+}
+/* end contact us page */
+
+}
